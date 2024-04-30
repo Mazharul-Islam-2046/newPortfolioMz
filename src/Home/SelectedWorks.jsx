@@ -76,13 +76,13 @@ const SelectedWorks = () => {
           </div>
           <div className="flex gap-6">
             <a
-              className="text-lg text-[#222222] bg-[#d9d9d9] py-3 w-1/2 rounded-full"
+              className="text-lg bg-gradient-to-r from-cyan-500 to-blue-500  text-[#f8f8f8] bg-[#d9d9d9] py-3 w-1/2 rounded-full"
               href=""
             >
               Github
             </a>
             <a
-              className="text-lg text-[#222222] bg-[#d9d9d9] py-3 w-1/2 rounded-full"
+              className="text-lg border-2 border-[#222]  text-[#222] py-3 w-1/2 rounded-full"
               href=""
             >
               Live
@@ -100,8 +100,8 @@ const SelectedWorks = () => {
             onSwiper={handleSlideChange}
           >
             {works.map((slide, index) => (
-              <SwiperSlide className="cursor-grab h-[400px]" key={index}>
-                <img className="object-cover" src={slide.image} alt="" />
+              <SwiperSlide className="cursor-grab h-[400px] rounded-xl" key={index}>
+                <img className="object-cover rounded-xl" src={slide.image} alt="" />
               </SwiperSlide>
             ))}
           </Swiper>
