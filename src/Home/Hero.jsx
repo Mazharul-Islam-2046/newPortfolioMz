@@ -39,7 +39,7 @@ const Hero = () => {
               <p className="opacity-40">Projects</p>
             </div>
             <div className="bg-[#d9d9d9] bg-opacity-40 rounded-xl w-full px-6 py-7 text-left font-bold tracking-normal text-5xl leading-tight">
-              <p className="opacity-40">10<span className="font-extrabold">+</span></p>
+              <p className="opacity-40">12<span className="font-extrabold">+</span></p>
               <p>Months</p>
             </div>
           <div className="overflow-hidden bg-[#d9d9d9] bg-opacity-40 col-span-2 rounded-xl px-6 py-7 text-lg font-semibold flex items-center">
