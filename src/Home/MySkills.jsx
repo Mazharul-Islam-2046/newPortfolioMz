@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 const MySkills = () => {
   return (
-    <div className="grid bg-gradient-to-r from-cyan-500 to-blue-500 text-[#f8f8f8] grid-cols-3 grid-rows-5 gap-6 mt-36 bg-[#222] p-16 rounded-2xl drop-shadow-2xl">
+    <div className="grid bg-gradient-to-r from-cyan-500 to-blue-500 text-[#f8f8f8] grid-cols-1 lg:grid-cols-3 grid-rows-5 gap-6 mt-8  md:mt-20 lg:mt-36 bg-[#222] p-5 md:p-8 lg:p-16 rounded-2xl drop-shadow-2xl">
       <div className="flex items-center justify-center">
         <h3 className="font-bold text-3xl">My Skills</h3>
       </div>
@@ -12,7 +12,7 @@ const MySkills = () => {
           12+ Web App Projects
         </h4>
       </div>
-      <div className="row-span-4 flex flex-col justify-center bg-[#f8f8f8] bg-opacity-40 drop-shadow-2xl rounded-xl p-4">
+      <div className="lg:row-span-4 flex flex-col justify-center bg-[#f8f8f8] bg-opacity-40 drop-shadow-2xl rounded-xl p-4">
         <h4 className="text-2xl font-bold tracking-wider">Frontend Skills</h4>
         <div className="flex flex-wrap gap-6 justify-center mt-8">
           <Icon className="text-4xl" icon="logos:nextjs-icon" />
@@ -25,16 +25,17 @@ const MySkills = () => {
           <Icon className="text-4xl" icon="devicon-plain:reactrouter" />
         </div>
       </div>
-      <div className="row-span-3 flex flex-col justify-center bg-[#f8f8f8] bg-opacity-40 drop-shadow-2xl rounded-xl p-4">
+      <div className="lg:row-span-3 flex flex-col justify-center bg-[#f8f8f8] bg-opacity-40 drop-shadow-2xl rounded-xl p-4">
         <h4 className="text-2xl font-bold tracking-wider">Backend Skills</h4>
         <div className="flex flex-wrap gap-6 justify-center mt-8">
         <Icon className="text-4xl" icon="skill-icons:nodejs-light" />
           <Icon className="text-4xl" icon="skill-icons:expressjs-light" />
           <Icon className="text-4xl" icon="devicon:mongodb-wordmark" />
           <Icon className="text-4xl" icon="logos:firebase" />
+          <Icon className="text-4xl" icon="skill-icons:vercel-light" />
         </div>
       </div>
-      <div className="row-span-2 flex flex-col justify-center bg-[#f8f8f8] bg-opacity-40 drop-shadow-2xl rounded-xl p-8">
+      <div className="lg:row-span-2 flex flex-col justify-center bg-[#f8f8f8] bg-opacity-40 drop-shadow-2xl rounded-xl p-8">
         <h4 className="text-2xl font-bold tracking-wider">Other Skills</h4>
         <div className="flex flex-wrap gap-6 justify-center mt-4">
           <Icon className="text-4xl" icon="skill-icons:figma-light" />
@@ -43,7 +44,7 @@ const MySkills = () => {
           <Icon className="text-4xl" icon="skill-icons:vscode-light" />
         </div>
       </div>
-      <div className="col-span-2 flex justify-around items-center bg-[#f8f8f8] bg-opacity-40 drop-shadow-2xl rounded-xl p-8">
+      <div className="lg:col-span-2 flex justify-around items-center bg-[#f8f8f8] bg-opacity-40 drop-shadow-2xl rounded-xl p-8">
         <h4 className="text-2xl font-bold tracking-wider">Version Control Skills</h4>
         <div className="flex flex-wrap gap-6 justify-center">
         <Icon className="text-4xl" icon="skill-icons:git" />
